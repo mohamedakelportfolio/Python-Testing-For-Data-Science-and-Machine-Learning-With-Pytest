@@ -1,4 +1,6 @@
+import pytest
 
+@pytest.mark.addition_defaults
 def test_addition_passing():
 
     # two variables with assignments
@@ -16,7 +18,7 @@ def test_subtraction_passing():
 
     assert(a - b) == (a - b)
 
-
+@pytest.mark.multiplication_replace
 def test_multiplication_passing():
 
     # two variables with assignments
