@@ -1,0 +1,6 @@
+# this file including all packages with their versions required to run the code.
+
+# start-pkg
+pytest==7.0.0
+
+# end-pkg
