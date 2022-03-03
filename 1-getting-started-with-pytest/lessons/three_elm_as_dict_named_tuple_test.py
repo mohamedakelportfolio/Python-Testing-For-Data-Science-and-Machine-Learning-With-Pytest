@@ -1,4 +1,5 @@
 from collections import namedtuple
+import time
 import pytest
 
 # create namedtuble object, will be used to create another object
@@ -18,11 +19,12 @@ def test_asdict():
     assert tet_dict == expected
 
 @pytest.mark.multiplication_replace
+
 def test_replace():
     """replace should change passed in field"""
-
+    time.sleep(0.1)
     tet_before = ThreeElmTuble(100,200,300)
     tet_after = tet_before._replace(a =1000, b=2000)
-    tet_expected = ThreeElmTuble(1000, 2000, 300)
+    tet_expected = ThreeElmTuble(1000, 2000, 3000)
 
     assert tet_after == tet_expected

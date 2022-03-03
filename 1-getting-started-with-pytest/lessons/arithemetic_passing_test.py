@@ -1,6 +1,6 @@
 import pytest
 
-@pytest.mark.addition_defaults
+@pytest.mark.addition_def
 def test_addition_passing():
 
     # two variables with assignments

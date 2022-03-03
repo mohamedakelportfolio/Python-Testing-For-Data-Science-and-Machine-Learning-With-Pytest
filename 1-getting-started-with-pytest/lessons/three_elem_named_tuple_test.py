@@ -8,7 +8,7 @@ ThreeElmTuble = namedtuple('ThreeElm',['a', 'b', 'c'])
 # set deafualts values for tuble members
 ThreeElmTuble.__new__.__defaults__ = (1, 2, 3)
 
-@pytest.mark.addition_defaults
+@pytest.mark.addition_def
 def test_defaults():
     """ no parmeters, defaults activation"""
     tet1 = ThreeElmTuble()
