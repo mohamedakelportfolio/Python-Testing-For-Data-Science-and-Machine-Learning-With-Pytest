@@ -1,8 +1,0 @@
-README.rst
-setup.py
-src/simple_math/__init__.py
-src/simple_math/math_module.py
-src/simple_math.egg-info/PKG-INFO
-src/simple_math.egg-info/SOURCES.txt
-src/simple_math.egg-info/dependency_links.txt
-src/simple_math.egg-info/top_level.txt

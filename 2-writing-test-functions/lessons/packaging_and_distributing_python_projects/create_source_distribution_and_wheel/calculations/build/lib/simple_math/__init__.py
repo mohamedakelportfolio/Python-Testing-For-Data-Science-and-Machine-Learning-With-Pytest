@@ -1,1 +1,0 @@
-from simple_math.math_module import *
